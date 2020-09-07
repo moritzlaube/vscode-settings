@@ -1,0 +1,24 @@
+{
+    "vetur.grammar.customBlocks": {
+        "page-query": "graphql",
+        "static-query": "graphql"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.renderIndentGuides": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "vetur.validation.template": true,
+    "editor.foldingStrategy": "indentation",
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vetur.format.defaultFormatter.html": "prettier",
+    "editor.formatOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "emmet.excludeLanguages": [],
+    "emmet.includeLanguages": {
+        "nunjucks": "html",
+        "markdown": "html"
+    },
+}
