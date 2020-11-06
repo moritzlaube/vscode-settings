@@ -1,24 +1,37 @@
 {
-    "vetur.grammar.customBlocks": {
-        "page-query": "graphql",
-        "static-query": "graphql"
-    },
-    "workbench.iconTheme": "vscode-icons",
-    "editor.renderIndentGuides": false,
-    "eslint.autoFixOnSave": true,
-    "eslint.alwaysShowStatus": true,
-    "vetur.validation.template": true,
-    "editor.foldingStrategy": "indentation",
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "vetur.format.defaultFormatter.html": "prettier",
-    "editor.formatOnSave": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "emmet.excludeLanguages": [],
-    "emmet.includeLanguages": {
-        "nunjucks": "html",
-        "markdown": "html"
-    },
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // }
+  "editor.tabCompletion": "on", //"onlySnippets",
+  "editor.foldingStrategy": "indentation",
+  // "editor.renderIndentGuides": false,
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For StyleLint
+    "source.fixAll.stylelint": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "nunjucks": "html",
+    "markdown": "html"
+  },
+  "emmet.variables": {
+    "lang": "de"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "workbench.iconTheme": "vscode-icons",
+  "vetur.grammar.customBlocks": {
+    "page-query": "graphql",
+    "static-query": "graphql"
+  },
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.validation.template": true
 }
